@@ -12,7 +12,7 @@
 
 .product-card {
   background-color: #7c7c7c;
-  background-image: url(/soveti/images/card-bc/card1.png);
+  background-image: url(/projects/soveti/images/card-bc/card1.png);
   width: calc(25% - 24px);
   background-repeat: no-repeat;
   height: 480px;
@@ -72,29 +72,29 @@
 }
 
 .product-card2 {
-  background-image: url(/soveti/images/card-bc/card2.png);
+  background-image: url(/projects/soveti/images/card-bc/card2.png);
 }
 
 .product-card3 {
-  background-image: url(/soveti/images/card-bc/card3.png);
+  background-image: url(/projects/soveti/images/card-bc/card3.png);
 }
 
 .product-card4 {
-  background-image: url(/soveti/images/card-bc/card4.png);
+  background-image: url(/projects/soveti/images/card-bc/card4.png);
 }
 
 .product-card5 {
-  background-image: url(/soveti/images/card-bc/card5.png);
+  background-image: url(/projects/soveti/images/card-bc/card5.png);
 }
 
 .product-card6 {
-  background-image: url(/soveti/images/card-bc/card6.png);
+  background-image: url(/projects/soveti/images/card-bc/card6.png);
 }
 
 .product-card7 {
-  background-image: url(/soveti/images/card-bc/card7.png);
+  background-image: url(/projects/soveti/images/card-bc/card7.png);
 }
 
 .product-card8 {
-  background-image: url(/soveti/images/card-bc/card8.png);
+  background-image: url(/projects/soveti/images/card-bc/card8.png);
 }
