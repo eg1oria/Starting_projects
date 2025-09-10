@@ -1,0 +1,40 @@
+.header {
+  background: linear-gradient(90deg, #415BD2 0%, #8DA1F7 100%);
+
+  &__content {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 22px 0;
+
+    @include vp-1439 {
+      padding: 15px 0;
+    }
+  }
+  
+  .header__logo-icon {
+    display: none;
+
+    @include vp-1439 {
+      display: block;
+    }
+  }
+
+  &__logo-image {
+    height: 36px;
+    width: 170px;
+
+    @include vp-1439 {
+      display: none;
+    }
+  }
+
+  &__burger {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    padding: 0;
+    cursor: pointer;
+  }
+}

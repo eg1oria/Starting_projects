@@ -1,0 +1,48 @@
+.footer__nav-item {
+    color: #FFFFFF80;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.footer__nav-item-indent {
+    margin: 0;
+}
+
+.footer__nav-tittle {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    margin: 0 0 15px 0;
+}
+
+.footer__nav-tittle-pay {
+    margin: 0 0 8px 0;
+}
+
+.footer__nav-liste {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    column-gap: 40px;
+}
+
+.footer__nav-pay-list {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__nav-download-list .footer__nav-item {
+    margin: 0;
+}
+
+.footer__nav-link {
+    color: #FFFFFF80;
+}
+
+span {
+    color: #FFFFFF80;
+}

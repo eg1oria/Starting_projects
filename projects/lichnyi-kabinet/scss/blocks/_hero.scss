@@ -1,0 +1,142 @@
+.hero {
+  background-color: $color-solitude-2;
+
+  @include vp-767 {
+    position: relative;
+  }
+
+  @include vp-767  {
+    height: 586px;
+  }
+
+  &--partners {
+
+    @include vp-767 {
+      height: 518px;
+    }
+
+    .hero__heading {
+      margin: 0 0 48px 0;
+
+      @include vp-1439 {
+        margin: 0 0 40px;
+      }
+    }
+
+    .hero__btn {
+      width: 258px;
+
+      @include vp-1439 {
+        width: 233px;
+      }
+    }
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    align-items: center;
+    column-gap: 180px;
+
+    @include vp-1439 {
+      grid-template-columns: 288px 1fr;
+      gap: unset;
+    }
+
+    @include vp-767 {
+      display: block;
+    }
+  }
+
+  &__content {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    @include vp-1439 {
+      padding: 58px 0;
+    }
+
+    @include vp-767 {
+      align-items: center;
+      padding: 40px 0;
+    }
+  }
+
+  &__btn {
+    width: 272px;
+
+    @include vp-1439 {
+      width: 244px;
+    }
+  }
+
+  &__heading {
+    margin: 0 0 24px;
+    font-size: 40px;
+    line-height: 48px;
+
+    @include vp-1439 {
+      font-size: 32px;
+      line-height: 38px;
+      margin: 0 0 20px;
+      width: 280px;
+    }
+
+    @include vp-767 {
+      text-align: center;
+    }
+  }
+
+  &__heading-highlight {
+    color: $color-royal-blue-1;
+  }
+
+  &__description {
+    margin: 0 0 48px;
+    font-size: 18px;
+    line-height: 24px;
+
+    @include vp-1439 {
+      margin: 0 0 40px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 288px;
+    }
+
+    @include vp-767 {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  
+    &__image {
+
+      width: 660px;
+      height: 640px;
+
+      @include vp-1439 {
+      width: 420px;
+      height: 410px;
+    }
+
+    @include vp-767 {
+      display: none;
+    }
+  }
+
+  .hero__image-mobile {
+    display: none;
+
+    @include vp-767 {
+      display: block;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 375px;
+      height: 364px;
+    }
+  }
+  }
